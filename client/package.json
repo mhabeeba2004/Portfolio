@@ -34,5 +34,8 @@
     "frontend"
   ],
   "author": "Umme Habeeba",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
