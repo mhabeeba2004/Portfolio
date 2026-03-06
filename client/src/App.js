@@ -6,7 +6,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import SneakerCaseStudy from './components/SneakerCaseStudy';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
@@ -38,8 +37,6 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        
-        <Footer />
       </div>
     </HashRouter>
   );
