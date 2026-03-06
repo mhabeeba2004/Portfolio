@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <nav className="navbar">
           <div className="nav-container">
@@ -41,7 +41,7 @@ const App = () => {
         
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
